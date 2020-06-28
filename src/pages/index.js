@@ -51,7 +51,7 @@ const IndexPage = () => (
             </a>{' '}
             where I mentor over 30 students in web development skills,
             engineering concepts, debugging strategies, and writing clean code.
-            I continue to learn each day by teaching.
+            I continue to learn each day by teaching!
             <br />
             <br />
             When I am not coding, I am usually resisting the urge to pet every
@@ -65,7 +65,7 @@ const IndexPage = () => (
             <br />
           </p>
         </header>
-        <div>Resume</div>
+        <a href="https://drive.google.com/uc?export=download&id=1bOAub0tc53nN28ZHC8aBl3Pv8bxIFucn">Resume: Download</a>
         {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
