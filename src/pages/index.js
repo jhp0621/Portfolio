@@ -7,6 +7,7 @@ import profile2 from '../assets/images/pp.jpg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import p4 from '../assets/images/pic03.jpg';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -65,7 +66,7 @@ const IndexPage = () => (
           </p>
         </header>
         <Scroll type="id" element="projects">
-          <a href="/projects" className="button secondary">
+          <a href="/portfolio" className="button">
             Projects
           </a>
         </Scroll>
@@ -100,7 +101,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="projects" className="wrapper alt style2">
+
+    {/* <section id="projects" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
@@ -149,44 +151,40 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-    </section>
+    </section> */}
 
-    <section id="three" className="wrapper style3 special">
+    <section id="projects" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Projects</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            My recent projects were built during the software engineering immersive bootcamp at Fullstack Academy.
           </p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>Kite Games</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>M.A.G.I.K</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Graced Pickles</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>Eye Do Care</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
