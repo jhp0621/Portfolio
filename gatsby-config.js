@@ -1,3 +1,4 @@
+//purpose: configure plugins used
 const config = require('./config');
 
 module.exports = {

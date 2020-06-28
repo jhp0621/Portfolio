@@ -1,13 +1,13 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
+import profile from '../assets/images/passport.png';
+import profile2 from '../assets/images/pp.jpg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -33,21 +33,40 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
+        <img src={profile2} className="avatar" />
+        <br />
+        <br />
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            Hello world! I am Ji. I heart coding.
             <br />
-            eget augue amet aliquet nisl cep donec
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            I am a <strong>full stack developer</strong> with a background in
+            psychology and linguistics. I love solving challenging problems and
+            working vigorously until I find creative and efficient solutions. I
+            am currently a Teaching Fellow at{' '}
+            <a target="_blank" href="https://fullstackacademy.com/">
+              Fullstack Academy of Code
+            </a>{' '}
+            where I mentor over 30 students in web development skills,
+            engineering concepts, debugging strategies, and writing clean code.
+            I continue to learn each day by teaching.
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            <br />
+            When I am not coding, I am usually resisting the urge to pet every
+            dog I meet on the street, singing to my plants (#plantmom),
+            experimenting with kombucha brewing, meditating to{' '}
+            <a target="_blank" href="https://www.sarahblondin.com">
+              Sarah Blondin
+            </a>
+            , or hanging upside down on aerial silks. I approach life with
+            passion and gratitude because attitude (!aptitude) === altitude.
+            <br />
           </p>
         </header>
-        <ul className="icons major">
+        <div>Resume</div>
+        {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
               <span className="label">Lorem</span>
@@ -63,7 +82,7 @@ const IndexPage = () => (
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 

@@ -1319,7 +1319,7 @@
 	}
 
 	.wrapper {
-		@include padding(6em, 0);
+		@include padding(4em, 0);
 
 		> .inner {
 			width: 60em;
@@ -1899,10 +1899,9 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))', 'url("../images/flowers.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
-			background-repeat: no-repeat;
+			background-position: center;
 			background-size: cover;
 			padding-top: 0;
 		}
@@ -1931,3 +1930,9 @@
 			}
 		}
 	}
+
+.avatar {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}

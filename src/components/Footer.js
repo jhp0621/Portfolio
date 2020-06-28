@@ -16,9 +16,9 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
+        <li>Ji Hye Park</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          2020
         </li>
       </ul>
     </footer>
