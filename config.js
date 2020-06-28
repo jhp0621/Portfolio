@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/jhpark/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Ji Hye Park',
+  heading: 'Ji H. Park',
   subHeading: 'Full Stack Developer',
 
   // social

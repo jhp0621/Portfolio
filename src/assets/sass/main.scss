@@ -1630,13 +1630,13 @@
 		}
 
 		.more {
-			@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
-			@include vendor('transition-delay', '3.5s');
+			@include vendor('transition', ('transform 0.65s ease', 'opacity 0.65s ease'));
+			@include vendor('transition-delay', '2.7s');
 			@include vendor('transform', 'translateY(0)');
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
+			// font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: _size(letter-spacing-alt);
@@ -1651,18 +1651,18 @@
 			z-index: 1;
 
 			&:after {
-				background-image: url('../images/arrow.png');
+				background-image: url('../images/exarrow.png');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
-				height: 1.5em;
+				height: 2em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
-				width: 1.5em;
+				width: 2em;
 			}
 		}
 
@@ -1899,7 +1899,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))', 'url("../images/flowers.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))', 'url("../images/napa.jpg")'));
 			background-attachment: fixed;
 			background-position: center;
 			background-size: cover;
@@ -1935,4 +1935,9 @@
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+}
+
+#resume {
+	display: flex;
+	justify-content: center;
 }

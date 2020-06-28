@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import profile from '../assets/images/passport.png';
@@ -15,23 +16,21 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
-          <li>
+          {/* <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Projects
               </a>
             </Scroll>
-          </li>
+          </li> */}
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Learn More
-        </a>
+      <Scroll type="id" element="about">
+        <a href="#about" className="more"></a>
       </Scroll>
     </section>
 
-    <section id="one" className="wrapper style1 special">
+    <section id="about" className="wrapper style1 special">
       <div className="inner">
         <img src={profile2} className="avatar" />
         <br />
@@ -65,7 +64,22 @@ const IndexPage = () => (
             <br />
           </p>
         </header>
-        <a href="https://drive.google.com/uc?export=download&id=1bOAub0tc53nN28ZHC8aBl3Pv8bxIFucn">Resume: Download</a>
+        <Scroll type="id" element="projects">
+          <a href="/projects" className="button secondary">
+            Projects
+          </a>
+        </Scroll>
+
+        {/* <div id="resume">
+          <div>Resume:&nbsp;&nbsp;</div>
+          <div> </div>
+          <a href="https://drive.google.com/uc?export=download&id=1bOAub0tc53nN28ZHC8aBl3Pv8bxIFucn">
+            Download
+          </a>
+          <div>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
+          <Link>View</Link>
+        </div> */}
+
         {/* <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
@@ -86,7 +100,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
+    <section id="projects" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
