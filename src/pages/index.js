@@ -158,39 +158,47 @@ const IndexPage = () => (
         <header className="major">
           <h2>Projects</h2>
           <p>
-            My recent projects were built during the software engineering immersive bootcamp at Fullstack Academy.
+            My projects were built during the software engineering immersive bootcamp at Fullstack Academy.
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          {/* <li className="icon solid fa-paper-plane" > */}
+          <li className="icon solid fa-gamepad" >
+            <Link to="/Projects#section1" className="portfolio">
             <h3>Kite Games</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Near, far, wherever we are, play games together with Kite!
             </p>
+            </Link>
           </li>
-          <li className="icon solid fa-laptop">
+          {/* <li className="icon solid fa-laptop"> */}
+          <li className="icon solid fa-mobile">
+          <Link to="/Projects#section2" className="portfolio">
             <h3>M.A.G.I.K</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Mindfulness, Affirmation app to practice Gratitude, feel Inspired and be Kind to oneself
             </p>
+            </Link>
           </li>
-          <li className="icon solid fa-code">
+          {/* <li className="icon solid fa-code"> */}
+          <li className="icon solid fa-shopping-cart">
+          <Link to="/Projects#section3" className="portfolio">
             <h3>Graced Pickles</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Fully functional mock e-commerce website for pickles
             </p>
+            </Link>
           </li>
-          <li className="icon solid fa-headphones-alt">
+          {/* <li className="icon solid fa-headphones-alt"> */}
+          <li className="icon solid fa-eye">
+          <Link to="/Projects#section4" className="portfolio">
             <h3>Eye Do Care</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Chrome extension that sends a reminder for eye care
             </p>
+          </Link>
           </li>
-          <li className="icon fa-heart">
+          {/* <li className="icon fa-heart">
             <h3>Aenean Primis</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
@@ -203,7 +211,7 @@ const IndexPage = () => (
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
