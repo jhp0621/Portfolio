@@ -1120,6 +1120,30 @@ button,
   padding: 0;
   width: 100%;
 
+  .portfolio1{
+    &:hover {
+      background-color: rgba(242, 104, 95, 0.714);
+      transform: scale(1.05);
+    }
+  }
+  .portfolio2{
+    &:hover {
+      background-color: rgba(254, 212, 75, 0.714);
+      transform: scale(1.05);
+    }
+  }
+  .portfolio3{
+    &:hover {
+      background-color: rgba(86, 250, 133, 0.714);
+      transform: scale(1.05);
+    }
+  }
+  .portfolio4{
+    &:hover {
+      background-color: rgba(115, 147, 254, 0.714);
+      transform: scale(1.05);
+    }
+  }
   li {
     @include padding(4em, 4em, (0, 0, 0, 2em));
     display: block;
@@ -1128,12 +1152,13 @@ button,
     width: 50%;
 
     @for $i from 1 through _misc(max-features) {
-      $j: 0.035 * $i;
+      $j: 0.05 * $i;
 
       &:nth-child(#{$i}) {
         background-color: rgba(0, 0, 0, $j);
       }
     }
+
 
     &:before {
       display: block;

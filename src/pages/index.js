@@ -162,8 +162,8 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           {/* <li className="icon solid fa-paper-plane" > */}
-          <li className="icon solid fa-gamepad" >
-            <Link to="/Projects#section1" className="portfolio">
+          <li className="icon solid fa-gamepad" className="portfolio1" >
+            <Link to="/Projects#section1">
             <h3>Kite Games</h3>
             <p>
               Near, far, wherever we are, play games together with Kite!
@@ -171,17 +171,17 @@ const IndexPage = () => (
             </Link>
           </li>
           {/* <li className="icon solid fa-laptop"> */}
-          <li className="icon solid fa-mobile">
-          <Link to="/Projects#section2" className="portfolio">
+          <li className="icon solid fa-mobile" className="portfolio2">
+          <Link to="/Projects#section2">
             <h3>M.A.G.I.K</h3>
             <p>
-              Mindfulness, Affirmation app to practice Gratitude, feel Inspired and be Kind to oneself
+              Mindfulness, Affirmation app for Gratitude, Inspiration and Kindess
             </p>
             </Link>
           </li>
           {/* <li className="icon solid fa-code"> */}
-          <li className="icon solid fa-shopping-cart">
-          <Link to="/Projects#section3" className="portfolio">
+          <li className="icon solid fa-shopping-cart" className="portfolio3">
+          <Link to="/Projects#section3">
             <h3>Graced Pickles</h3>
             <p>
               Fully functional mock e-commerce website for pickles
@@ -189,8 +189,8 @@ const IndexPage = () => (
             </Link>
           </li>
           {/* <li className="icon solid fa-headphones-alt"> */}
-          <li className="icon solid fa-eye">
-          <Link to="/Projects#section4" className="portfolio">
+          <li className="icon solid fa-eye" className="portfolio4">
+          <Link to="/Projects#section4">
             <h3>Eye Do Care</h3>
             <p>
               Chrome extension that sends a reminder for eye care
