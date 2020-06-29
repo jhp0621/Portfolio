@@ -66,9 +66,8 @@ const IndexPage = () => (
           </p>
         </header>
         <Scroll type="id" element="projects">
-          <a href="/portfolio" className="button">
-            Projects
-          </a>
+          <a href="/portfolio" className="more">
+        </a>
         </Scroll>
 
         {/* <div id="resume">

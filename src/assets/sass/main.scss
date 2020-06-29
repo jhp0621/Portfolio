@@ -1719,6 +1719,23 @@ button,
   }
 }
 
+#about {
+  .more {
+    background-image: url('../images/exarrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+		height: 2em;
+		text-decoration: none;
+
+    &:hover {
+      background-image: url('../images/exarrow4.png');
+      background-size: 38px;
+    }
+  }
+}
+
 /* Banner */
 
 #banner {
