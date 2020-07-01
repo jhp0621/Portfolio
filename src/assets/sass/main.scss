@@ -1159,7 +1159,6 @@ button,
       }
     }
 
-
     &:before {
       display: block;
       color: _palette(accent2, bg);
@@ -1603,7 +1602,7 @@ button,
   }
 
   .close {
-    background-image: url('../images/close.png');
+    background-image: url('../img/close.png');
     background-position: 4.85em 1em;
     background-repeat: no-repeat;
     border: 0;
@@ -1703,7 +1702,7 @@ button,
             position: relative;
 
             &:after {
-              background-image: url('../images/bars.png');
+              background-image: url('../img/bars.png');
               background-position: right center;
               background-repeat: no-repeat;
               content: '';
@@ -1746,7 +1745,7 @@ button,
 
 #about {
   .more {
-    background-image: url('../images/exarrow.png');
+    background-image: url('../img/exarrow.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1755,7 +1754,7 @@ button,
 		border-bottom: none;
 
     &:hover {
-      background-image: url('../images/exarrow4.png');
+      background-image: url('../img/exarrow2.png');
       background-size: 38px;
     }
   }
@@ -1840,7 +1839,7 @@ button,
     width: 16em;
     z-index: 1;
 
-    background-image: url('../images/exarrow.png');
+    background-image: url('../img/exarrow.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1854,7 +1853,7 @@ button,
     width: 2em;
 
     &:hover {
-      background-image: url('../images/exarrow4.png');
+      background-image: url('../img/exarrow2.png');
       background-size: 38px;
     }
   }
@@ -1973,7 +1972,7 @@ body.is-preload,
       'background-image',
       (
         'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/banner.jpg")'
+        'url("../img/banner.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2104,8 +2103,8 @@ body.landing,
     @include vendor(
       'background-image',
       (
-        'linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))',
-        'url("../images/napa.jpg")'
+        'linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))',
+        'url("../image/napa2.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2131,7 +2130,7 @@ body.is-mobile {
         'background-image',
         (
           'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-          'url("../images/banner.jpg")'
+          'url("../img/banner.jpg")'
         )
       );
       background-position: center center;

@@ -2,12 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
-import profile from '../assets/images/passport.png';
-import profile2 from '../assets/images/pp.jpg';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import p4 from '../assets/images/pic03.jpg';
+import profile from '../assets/images/pp.png';
+import profile2 from '../assets/images/pp2.jpg';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -61,13 +57,13 @@ const IndexPage = () => (
               Sarah Blondin
             </a>
             , or hanging upside down on aerial silks. I approach life with
-            passion and gratitude because attitude (!aptitude) === altitude.
+            passion and gratitude because{' '}
+            <code>attitude (!aptitude) === altitude </code>
             <br />
           </p>
         </header>
         <Scroll type="id" element="projects">
-          <a href="/portfolio" className="more">
-        </a>
+          <a href="/portfolio" className="more"></a>
         </Scroll>
 
         {/* <div id="resume">
@@ -99,7 +95,6 @@ const IndexPage = () => (
         </ul> */}
       </div>
     </section>
-
 
     {/* <section id="projects" className="wrapper alt style2">
       <section className="spotlight">
@@ -155,47 +150,45 @@ const IndexPage = () => (
     <section id="projects" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Projects</h2>
+          <Link to="/Projects" style={{ borderBottom: 'none' }}><h2>Projects</h2></Link>
           <p>
-            My projects were built during the software engineering immersive bootcamp at Fullstack Academy.
+            My projects were built during the software engineering immersive
+            bootcamp at Fullstack Academy.
           </p>
         </header>
         <ul className="features">
           {/* <li className="icon solid fa-paper-plane" > */}
-          <li className="icon solid fa-gamepad" className="portfolio1" >
-            <Link to="/Projects#section1">
-            <h3>Kite Games</h3>
-            <p>
-              Near, far, wherever we are, play games together with Kite!
-            </p>
-            </Link>
+          <li className="icon solid fa-gamepad portfolio1">
+              <Link to="/Projects#section1">
+                <h3>Kite Games</h3>
+                <p>
+                  Near, far, wherever we are, play games together with Kite!
+                </p>
+              </Link>
           </li>
           {/* <li className="icon solid fa-laptop"> */}
-          <li className="icon solid fa-mobile" className="portfolio2">
-          <Link to="/Projects#section2">
-            <h3>M.A.G.I.K</h3>
-            <p>
-              Mindfulness, Affirmation app for Gratitude, Inspiration and Kindess
-            </p>
+          <li className="icon solid fa-mobile portfolio2">
+            <Link to="/Projects#section2">
+              <h3>M.A.G.I.K</h3>
+              <p>
+                Mindfulness, Affirmation app for Gratitude, Inspiration and
+                Kindess
+              </p>
             </Link>
           </li>
           {/* <li className="icon solid fa-code"> */}
-          <li className="icon solid fa-shopping-cart" className="portfolio3">
-          <Link to="/Projects#section3">
-            <h3>Graced Pickles</h3>
-            <p>
-              Fully functional mock e-commerce website for pickles
-            </p>
+          <li className="icon solid fa-shopping-cart portfolio3">
+            <Link to="/Projects#section3">
+              <h3>Graced Pickles</h3>
+              <p>Online merchandise store for pickles</p>
             </Link>
           </li>
           {/* <li className="icon solid fa-headphones-alt"> */}
-          <li className="icon solid fa-eye" className="portfolio4">
-          <Link to="/Projects#section4">
-            <h3>Eye Do Care</h3>
-            <p>
-              Chrome extension that sends a reminder for eye care
-            </p>
-          </Link>
+          <li className="icon solid fa-eye portfolio4">
+            <Link to="/Projects#section4">
+              <h3>Eye Do Care</h3>
+              <p>Chrome extension that sends a reminder for eye care</p>
+            </Link>
           </li>
           {/* <li className="icon fa-heart">
             <h3>Aenean Primis</h3>
