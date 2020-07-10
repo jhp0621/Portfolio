@@ -4,6 +4,10 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import profile from '../assets/images/pp.png';
 import profile2 from '../assets/images/pp2.jpg';
+import kite from '../assets/img/kite.png';
+import eye from '../assets/img/eye.png';
+import magik from '../assets/img/magik.gif';
+import p1 from '../assets/images/pic01.jpg';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -12,15 +16,13 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-        <ul className="actions special">
-          {/* <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Projects
-              </a>
-            </Scroll>
-          </li> */}
-        </ul>
+        {/* <Link to="/Resume" className="button">
+          Resume
+        </Link>
+        <div>/</div>
+        <Link to="/Projects" className="button">
+          Projects
+        </Link> */}
       </div>
       <Scroll type="id" element="about">
         <a href="#about" className="more"></a>
@@ -65,108 +67,85 @@ const IndexPage = () => (
         <Scroll type="id" element="projects">
           <a href="/portfolio" className="more"></a>
         </Scroll>
-
-        {/* <div id="resume">
-          <div>Resume:&nbsp;&nbsp;</div>
-          <div> </div>
-          <a href="https://drive.google.com/uc?export=download&id=1bOAub0tc53nN28ZHC8aBl3Pv8bxIFucn">
-            Download
-          </a>
-          <div>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
-          <Link>View</Link>
-        </div> */}
-
-        {/* <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul> */}
       </div>
     </section>
 
-    {/* <section id="projects" className="wrapper alt style2">
+    <section id="projects" className="wrapper alt style2">
       <section className="spotlight">
-        <div className="image">
-          <img src={pic1} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+        <div className="">
+          <h2>Skills</h2>
+          <div className="row">
+            <div className="content">
+              <div className="box">
+                <h4>Toolbox</h4>
+                <p>
+                  <b>Key Skills</b>: JavaScript, HTML5, CSS3, React, Redux,
+                  Node.js, Express, Sequelize, RESTful API, PostgreSQL, Git
+                  <br />
+                  <br />
+                  <b>Basic Proficiency</b>: Firebase, NoSQL, SQL, React Native,
+                  Bootstrap, Socket.io, Heroku, Webpack, Passport
+                  <br />
+                  <br />
+                  <b>TDD</b>: Mocha, Chai, Jasmine
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="column">
+              <div className="content">
+                <div className="box">
+                  <h4>Learning</h4>
+                  <p>
+                    Currently: Angular, GraphQL, Data Structures
+                    <br />
+                    <br /> On the radar: Swift, Ruby, Typescript, AWS
+                  </p>
+                </div>
+              </div>
+
+              <div id="resume" className="content">
+                <b>Resume:&nbsp;&nbsp;</b>
+                <Link to="/Resume">View</Link>
+                <div>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
+                <a href="https://drive.google.com/uc?export=download&id=1Yxz-7RgbWPIsDFiJX30aP8yInGIC9Y8vo0ZPXyLtfnU">
+                  Download
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
+    </section>
+
+    {/* <section id="featured" className="wrapper alt style2">
+      <div className="spotlight">
+        <header className="major">
+          <h2>Skills</h2>
+        </header>
+        <img src={magik} alt="" className="featured" />
+        <p>blah</p>
+      </div>
     </section> */}
 
     <section id="projects" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <Link to="/Projects" style={{ borderBottom: 'none' }}><h2>Projects</h2></Link>
+          <Link to="/Projects" style={{ borderBottom: 'none' }}>
+            <h2>Projects</h2>
+          </Link>
           <p>
             My projects were built during the software engineering immersive
             bootcamp at Fullstack Academy.
           </p>
         </header>
         <ul className="features">
-          {/* <li className="icon solid fa-paper-plane" > */}
           <li className="icon solid fa-gamepad portfolio1">
-              <Link to="/Projects#section1">
-                <h3>Kite Games</h3>
-                <p>
-                  Near, far, wherever we are, play games together with Kite!
-                </p>
-              </Link>
+            <Link to="/Projects#section1" className="anchor">
+              <h3>Kite Games</h3>
+              <p>Near, far, wherever we are, play games together with Kite!</p>
+            </Link>
           </li>
-          {/* <li className="icon solid fa-laptop"> */}
           <li className="icon solid fa-mobile portfolio2">
             <Link to="/Projects#section2">
               <h3>M.A.G.I.K</h3>
@@ -176,57 +155,17 @@ const IndexPage = () => (
               </p>
             </Link>
           </li>
-          {/* <li className="icon solid fa-code"> */}
           <li className="icon solid fa-shopping-cart portfolio3">
             <Link to="/Projects#section3">
               <h3>Graced Pickles</h3>
               <p>Online merchandise store for pickles</p>
             </Link>
           </li>
-          {/* <li className="icon solid fa-headphones-alt"> */}
           <li className="icon solid fa-eye portfolio4">
             <Link to="/Projects#section4">
               <h3>Eye Do Care</h3>
               <p>Chrome extension that sends a reminder for eye care</p>
             </Link>
-          </li>
-          {/* <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li> */}
-        </ul>
-      </div>
-    </section>
-
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
           </li>
         </ul>
       </div>
