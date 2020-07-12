@@ -1,10 +1,10 @@
 {
-  "name": "ji-dev-site",
+  "name": "portfolio",
   "version": "0.0.1",
-  "description": "portfolio website",
+  "description": "A showcase of my projects",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
+    "url": "https://github.com/jhp0621/portfolio"
   },
   "author": {
     "name": "Ji Hye Park",
