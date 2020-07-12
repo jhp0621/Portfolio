@@ -2,4 +2,4 @@
 
 Hello! This is the source code for my [portfolio website](jhpark.dev), which I built using React and Gatsby.
 
-Thanks Gatsby for the awesome [starter template]("https://github.com/anubhavsrivastava/gatsby-starter-spectral").
+Thanks Gatsby for the awesome [starter template](https://github.com/anubhavsrivastava/gatsby-starter-spectral).
