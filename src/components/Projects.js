@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 export default function Projects () {
   return (
-    <section id="project" className="wrapper style3 special">
+    <section id="projects" className="wrapper style3 special">
     <div className="inner">
     <header className="major">
       <Link to="/Projects" style={{ borderBottom: 'none' }}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Scroll from '../components/Scroll';
-import profile from '../assets/images/pp2.jpg';
+import profile from '../assets/images/jipark.jpg';
 
 export default function About() {
   return (

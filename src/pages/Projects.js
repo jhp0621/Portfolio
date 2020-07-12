@@ -1,22 +1,22 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import kite from '../assets/img/kite.png';
-import magik from '../assets/img/magik.jpg';
-import pickle from '../assets/img/pickle.png';
-import eye from '../assets/img/eye.jpg';
 import kitegif from '../assets/img/kite.gif';
+import magik from '../assets/img/magik.jpg';
 import magikgif from '../assets/img/magik.gif';
-import gpgif from '../assets/img/gp.gif';
+import pickle from '../assets/img/gpickles.png';
+import gpgif from '../assets/img/gpickles.gif';
+import eye from '../assets/img/edc.jpg';
 import eyegif from '../assets/img/edc.gif';
 
 const IndexPage = () => {
   return (
     <Layout fullMenu>
-      <article id="main">
+      <article id="main" className="projects">
         <header>
           <h2>Projects</h2>
           <i>
-            <sub>.. Work In Progress ..</sub>
+            <sup>.. Work In Progress ..</sup>
           </i>
         </header>
         <section id="section1" className="wrapper style5">
@@ -103,7 +103,7 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="" style={{ borderBottom: 'none' }}>
+                  <a target="_blank" href="https://youtu.be/kHfzCNxTKsU" style={{ borderBottom: 'none' }}>
                     <i className="fab fa-youtube fa-2x" />
                   </a>
                 </li>

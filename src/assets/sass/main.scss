@@ -214,7 +214,7 @@ html {
 
 body,
 .main-body {
-  background: _palette(bg);
+  background-color: rgba(58, 45, 54, 0.96);
 
   // Stops initial animations until page loads.
   &.is-preload {
@@ -1295,6 +1295,10 @@ button,
   .row {
     margin-left: 2%;
   }
+
+  .summary {
+    margin: 1.5em 6em 3em 6em;
+  }
 }
 
 /* Wrapper */
@@ -1532,7 +1536,7 @@ button,
   &.style1 {
     @include wrapper(accent1);
     // background-color: #74b67f;
-    background-color: rgba(110, 187, 131, 0.92);
+    background-color: rgba(110, 187, 131, 0.93);
   }
 
   &.style2 {
@@ -1540,7 +1544,7 @@ button,
   }
 
   &.style3 {
-    background-color: rgba(143, 135, 82, 0.94);
+    background-color: rgba(213, 140, 109, 0.9);
   }
 
   &.style4 {
@@ -1549,7 +1553,17 @@ button,
 
   &.style5 {
     @include wrapper(accent7);
-    background-color: rgb(238, 235, 235);
+    @include vendor(
+      'background-image',
+      (
+        'linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0))',
+        'url("../image/pastel.jpg")'
+      )
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     margin-left: -2%;
     .inner {
       width: 65em;
@@ -1597,7 +1611,7 @@ button,
   @include vendor('transform', 'translateX(20em)');
   @include vendor('transition', 'transform #{_duration(menu)} ease');
   -webkit-overflow-scrolling: touch;
-  background-color: rgba(118, 183, 199, 0.995);
+  background-color: rgba(58, 45, 54, 0.96);
   color: _palette(accent1, fg-bold);
   height: 100%;
   max-width: 80%;
@@ -1682,7 +1696,7 @@ button,
     'transition',
     'background-color #{_duration(transitions)} ease'
   );
-  background: rgba(37, 51, 47, 0.92);
+  background-color: rgba(58, 45, 54, 0.9);
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -1893,7 +1907,7 @@ button,
       'transition',
       ('transform 0.65s ease', 'opacity 0.65s ease')
     );
-    @include vendor('transition-delay', '2.7s');
+    @include vendor('transition-delay', '2.5s');
     @include vendor('transform', 'translateY(0)');
     border: none;
     bottom: 0;
@@ -1922,7 +1936,7 @@ button,
     height: 2em;
     left: 50%;
     margin: 0 0 0 -0.75em;
-    position: absolute;
+    // position: absolute;
     width: 2em;
 
     &:hover {
@@ -1936,7 +1950,7 @@ button,
     @include vendor('transition', 'opacity #{_duration(fadein)} ease-in-out');
     @include vendor('transition-delay', '1.25s');
     content: '';
-    background: _palette(bg);
+    background-color: rgb(45, 35, 42);
     display: block;
     width: 100%;
     height: 100%;
@@ -1993,7 +2007,7 @@ body.is-preload,
 
 #cta {
   &.style4 {
-    background-color: rgba(50, 101, 121, 0.384);
+    // background-color: rgba(150, 124, 138, 0.048);
   }
   .inner {
     @include vendor('display', 'flex');
@@ -2044,19 +2058,36 @@ body.is-preload,
 #main {
   &.resume {
     > header {
-      background-image: url('../image/pierflowers.jpg');
+      background-image: url('../image/flowers.jpg');
+    }
+  }
+
+  &.notFound {
+    > header {
+      @include vendor(
+        'background-image',
+        (
+          'linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.2))',
+          'url("../image/bf.png")'
+        )
+      );
+    }
+  }
+
+  &.projects {
+    > header {
+      @include vendor(
+        'background-image',
+        (
+          'linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))',
+          'url("../image/stairs.jpg")'
+        )
+      );
     }
   }
 
   > header {
     @include padding(10em, 0);
-    @include vendor(
-      'background-image',
-      (
-        'linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))',
-        'url("../image/stairs.jpg")'
-      )
-    );
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2105,7 +2136,7 @@ body.is-preload,
     .kite {
       margin-right: 5%;
       .gif {
-        height: 20em;
+        height: 19em;
         width: 105%;
         margin-bottom: 5%;
       }
@@ -2130,7 +2161,7 @@ body.is-preload,
       margin-left: -5.8%;
       .gif {
         width: 100%;
-        margin-left: 19%;
+        margin: -5% 0 5% 20%
       }
     }
   }
@@ -2138,9 +2169,20 @@ body.is-preload,
   /* resume */
 
   #education {
-    background-color: rgb(238, 237, 237);
+    @include vendor(
+      'background-image',
+      (
+        'linear-gradient(to top, rgba(0,0,0,0.05), rgba(0,0,0,0.05))',
+        'url("../image/blurred.jpg")'
+      )
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     line-height: 1.5;
     margin-left: -5%;
+
     h2 {
       font-size: 1.3em;
       margin-top: -1%;
@@ -2158,7 +2200,17 @@ body.is-preload,
   }
 
   #experience {
-    background-color: rgb(238, 237, 237);
+    @include vendor(
+      'background-image',
+      (
+        'linear-gradient(to top, rgba(0,0,0,0.05), rgba(0,0,0,0.05))',
+        'url("../image/blurred.jpg")'
+      )
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     line-height: 1.8;
     margin-left: -5%;
     h2 {
@@ -2195,7 +2247,7 @@ body.is-mobile {
 
 #footer {
   @include padding(5em, 0);
-  background-color: darken(_palette(bg), 8);
+  background-color: rgb(45, 35, 42);
   text-align: center;
 
   .icons {
@@ -2277,7 +2329,8 @@ body.landing,
   }
 
   #footer {
-    background-color: darken(transparentize(_palette(bg), 0.1), 8);
+    // background-color: darken(transparentize(_palette(bg), 0.1), 9);
+    background-color: rgba(38, 29, 35, 0.92);
   }
 }
 
@@ -2340,5 +2393,21 @@ body.is-mobile {
   }
   .row :nth-child(2) {
     order: 2;
+  }
+
+  .more {
+    z-index: 1;
+    background-image: url('../img/exarrow4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 2em;
+    border-bottom: none;
+
+    &:hover {
+      background-image: url('../img/exarrow.png');
+      background-size: 38px;
+    }
   }
 }

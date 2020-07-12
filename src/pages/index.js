@@ -6,7 +6,6 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Scroll from '../components/Scroll';
 import About from '../components/About';
-import profile from '../assets/images/pp.png';
 import config from '../../config';
 
 const IndexPage = () => (
