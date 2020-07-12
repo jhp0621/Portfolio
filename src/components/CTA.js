@@ -8,8 +8,7 @@ export default function CTA() {
           <h2>Let's chat!</h2>
           <p>
             Thanks for visiting my website (built with{' '}
-            <a target="_blank" href="https://www.gatsbyjs.org/">Gatsby</a>). I would love to get
-            to know you and talk about my experiences. Feel free to connect with
+            <a target="_blank" href="https://www.gatsbyjs.org/">Gatsby</a>). I would love to get to know you and discuss my experiences and anything code related. Feel free to connect with
             me on LinkedIn or send me an email. I look forward to hearing from
             you!
           </p>

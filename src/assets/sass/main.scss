@@ -2011,7 +2011,7 @@ body.is-preload,
   }
   .inner {
     @include vendor('display', 'flex');
-    max-width: 45em;
+    max-width: 41em;
 
     header {
       @include vendor('order', '1');
