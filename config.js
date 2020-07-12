@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Ji Hye Park', // <title>
-  manifestName: 'Ji Hye Park',
-  manifestShortName: 'Ji Hye Park', // max 12 characters
+  siteTitle: 'Ji H. Park || Developer', // <title>
+  manifestName: 'Ji H. Park || Developer',
+  manifestShortName: 'Ji H. Park', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
