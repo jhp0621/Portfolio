@@ -2005,9 +2005,6 @@ body.is-preload,
 /* CTA */
 
 #cta {
-  &.style4 {
-    // background-color: rgba(150, 124, 138, 0.048);
-  }
   .inner {
     @include vendor('display', 'flex');
     max-width: 41em;

@@ -15,14 +15,13 @@ export default function Skills() {
               <p>
                 <b>Key Skills</b>: JavaScript, HTML5, CSS3, React, Redux,
                 Node.js, Express, Sequelize, RESTful API, PostgreSQL, Git
-                <br />
-                <br />
+              </p>
+              <p>
                 <b>Basic Proficiency</b>: Firebase, NoSQL, SQL, React Native,
                 Bootstrap, Socket.io, Heroku, Webpack, Passport
-                <br />
-                <br />
+              </p>
+              <p>
                 <b>TDD</b>: Mocha, Chai, Jasmine
-                <br />
               </p>
             </div>
           </div>
@@ -30,11 +29,8 @@ export default function Skills() {
             <div className="content">
               <div className="box">
                 <h4>Learning</h4>
-                <p>
-                  Currently: Angular, GraphQL, Docker
-                  <br />
-                  <br /> On the radar: Swift, Ruby, Typescript, AWS
-                </p>
+                <p>Currently: Angular, GraphQL, Docker</p>
+                <p>On the radar: Swift, Ruby, Typescript, AWS</p>
               </div>
             </div>
             <div id="resume" className="content">
@@ -50,14 +46,14 @@ export default function Skills() {
         <p className="summary">
           Besides these hard skills, I have been honing a variety of{' '}
           <b>soft skills</b> as well. As a Teaching Fellow, I get to utilize my
-          understanding of the human mind and behavior to provide
-          diverse support to my students. I also get to flex my teaching and
-          training skills I have gained from my days as a tutor and as a
-          volunteer supervisor. I am thrilled to continue to learn and grow
-          as a software engineer and work with other talented individuals who
-          are passionate about what they do. I am ready for new challenges and
-          cannot wait to contribute to meaningful projects and applications that
-          empower and motivate lives!
+          understanding of the human mind and behavior to provide diverse
+          support to my students. I also get to flex my teaching and training
+          skills I have gained from my days as a tutor and as a volunteer
+          supervisor. I am thrilled to continue to learn and grow as a software
+          engineer and work with other talented individuals who are passionate
+          about what they do. I am ready for new challenges and cannot wait to
+          contribute to meaningful projects and applications that empower and
+          motivate lives!
         </p>
         <Scroll type="id" element="projects">
           <a href="#projects" className="more"></a>
