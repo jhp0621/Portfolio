@@ -406,11 +406,14 @@ pre {
 /* Row */
 
 .row {
-  @include html-grid(1.5em);
+  // @include html-grid(1.5em);
 
-  @include breakpoint('<=xlarge') {
-    @include html-grid(1.5em, 'xlarge');
-  }
+  // @include breakpoint('<=xlarge') {
+  //   @include html-grid(1.5em, 'xlarge');
+  // }
+
+  display: flex;
+  flex-direction: row;
 
   @include breakpoint('<=large') {
     @include html-grid(1.5em, 'large');
@@ -493,7 +496,6 @@ header {
       display: none;
     }
   }
-
 }
 
 /* Form */
@@ -728,7 +730,7 @@ input[type='radio'] {
   }
 
   &.style2 {
-    color: rgb(89, 87, 87)
+    color: rgb(89, 87, 87);
     // color: _palette(accent3, bg);
   }
 
@@ -925,11 +927,10 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
-
+  font-size: 0.55em;
   li {
     display: inline-block;
-    padding: 0 1em 0 0;
-
+    padding: 0.8em 0 0 1.5em;
     &:last-child {
       padding-right: 0 !important;
     }
@@ -1235,9 +1236,9 @@ button,
 
   h2 {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 4%;
   }
-
+  padding-bottom: 2%;
   .content {
     @include padding(2em, 4em);
     @include vendor('order', '2');
@@ -1290,6 +1291,9 @@ button,
     .content {
       @include padding(3em, 2em);
     }
+  }
+  .row {
+    margin-left: 2%;
   }
 }
 
@@ -1496,14 +1500,14 @@ button,
 }
 
 /* Featured */
-#featured {
-  .featured {
-    height: 30em;
-    border-radius: 30px;
-    display: block;
-    margin-right: auto;
-  }
-}
+// #featured {
+//   .featured {
+//     height: 30em;
+//     border-radius: 30px;
+//     display: block;
+//     margin-right: auto;
+//   }
+// }
 
 .wrapper {
   @include padding(4em, 0);
@@ -1528,15 +1532,15 @@ button,
   &.style1 {
     @include wrapper(accent1);
     // background-color: #74b67f;
-    background-color: #6cb679;
+    background-color: rgba(110, 187, 131, 0.92);
   }
 
   &.style2 {
-    background-color: #5a4754;
+    background-color: #3a2d36d0;
   }
 
   &.style3 {
-    background-color: rgb(171, 119, 128);
+    background-color: rgba(143, 135, 82, 0.94);
   }
 
   &.style4 {
@@ -1545,6 +1549,14 @@ button,
 
   &.style5 {
     @include wrapper(accent7);
+    background-color: rgb(238, 235, 235);
+    margin-left: -2%;
+    .inner {
+      width: 65em;
+      p {
+        font-size: 97%;
+      }
+    }
   }
 
   &.style6 {
@@ -1585,7 +1597,7 @@ button,
   @include vendor('transform', 'translateX(20em)');
   @include vendor('transition', 'transform #{_duration(menu)} ease');
   -webkit-overflow-scrolling: touch;
-  background: _palette(accent1, bg);
+  background-color: rgba(118, 183, 199, 0.995);
   color: _palette(accent1, fg-bold);
   height: 100%;
   max-width: 80%;
@@ -1670,7 +1682,7 @@ button,
     'transition',
     'background-color #{_duration(transitions)} ease'
   );
-  background: _palette(bg);
+  background: rgba(37, 51, 47, 0.92);
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -1773,7 +1785,7 @@ button,
 
 #about {
   .more {
-    background-image: url('../img/exarrow.png');
+    background-image: url('../img/exarrow1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1848,16 +1860,33 @@ button,
     }
   }
 
-  .button {
-    transition-delay: 10s;
-    background-color: rgba(254, 187, 198, 0.493);
-    font-size: 0.75em;
-    @include vendor(
-      'transition',
-      ('transform 0.65s ease', 'opacity 0.65s ease')
-    );
-    @include vendor('transition-delay', '2.7s');
-    @include vendor('transform', 'translateY(0)');
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .button {
+      &.projects {
+        background-color: rgba(187, 223, 254, 0.55);
+        &:hover {
+          background-color: rgba(187, 223, 254, 0.8);
+        }
+      }
+      &.resume {
+        background-color: rgba(233, 250, 140, 0.55);
+        &:hover {
+          background-color: rgba(233, 250, 140, 0.8);
+        }
+      }
+
+      font-size: 0.75em;
+      @include vendor(
+        'transition',
+        ('transform 0.65s ease', 'opacity 0.65s ease')
+      );
+      @include vendor('transition-delay', '2.7s');
+      @include vendor('transform', 'translateY(0)');
+    }
   }
   .more {
     @include vendor(
@@ -1883,7 +1912,7 @@ button,
     width: 16em;
     z-index: 1;
 
-    background-image: url('../img/exarrow.png');
+    background-image: url('../img/exarrow3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1897,7 +1926,7 @@ button,
     width: 2em;
 
     &:hover {
-      background-image: url('../img/exarrow2.png');
+      background-image: url('../img/exarrow4.png');
       background-size: 38px;
     }
   }
@@ -1963,6 +1992,9 @@ body.is-preload,
 /* CTA */
 
 #cta {
+  &.style4 {
+    background-color: rgba(50, 101, 121, 0.384);
+  }
   .inner {
     @include vendor('display', 'flex');
     max-width: 45em;
@@ -1970,7 +2002,7 @@ body.is-preload,
     header {
       @include vendor('order', '1');
       padding-right: 3em;
-      width: 70%;
+      // width: 70%;
 
       p {
         color: inherit;
@@ -2010,12 +2042,18 @@ body.is-preload,
 /* Main */
 
 #main {
+  &.resume {
+    > header {
+      background-image: url('../image/pierflowers.jpg');
+    }
+  }
+
   > header {
     @include padding(10em, 0);
     @include vendor(
       'background-image',
       (
-        'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+        'linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))',
         'url("../image/stairs.jpg")'
       )
     );
@@ -2063,22 +2101,49 @@ body.is-preload,
     }
   }
 
-  .featured {
-    margin-top: -90px;
-    height: 33em;
-    width: 17em;
-    border-radius: 34px;
-    // display: block;
-    margin-left: auto;
+  #projects {
+    .kite {
+      margin-right: 5%;
+      .gif {
+        height: 20em;
+        width: 105%;
+        margin-bottom: 5%;
+      }
+    }
+    .magik {
+      .gif {
+        margin-top: -90px;
+        height: 33em;
+        width: 17em;
+        border-radius: 34px;
+        // display: block;
+        margin-left: auto;
+      }
+    }
+    .gp {
+      margin-right: 3%;
+      .gif {
+        margin-bottom: 5%;
+      }
+    }
+    .edc {
+      margin-left: -5.8%;
+      .gif {
+        width: 100%;
+        margin-left: 19%;
+      }
+    }
   }
 
-  #section3 {
-    background-color: rgb(250, 208, 215);
+  /* resume */
+
+  #education {
+    background-color: rgb(238, 237, 237);
     line-height: 1.5;
     margin-left: -5%;
     h2 {
       font-size: 1.3em;
-      margin-top: -2%;
+      margin-top: -1%;
     }
     h3 {
       font-size: 1em;
@@ -2092,25 +2157,25 @@ body.is-preload,
     }
   }
 
-  #section4 {
-    background-color: rgb(250, 208, 215);
-    line-height: 1.7;
+  #experience {
+    background-color: rgb(238, 237, 237);
+    line-height: 1.8;
     margin-left: -5%;
     h2 {
       font-size: 1.3em;
-      margin-top: -13%;
+      margin-top: -12%;
     }
     h3 {
       font-size: 1em;
-      margin: 0 0 (_size(element-margin) * 0.22) 0;
+      margin: 0 0 (_size(element-margin) * 0.25) 0;
     }
     h6 {
       margin: 0 0 (_size(element-margin) * 0.25) 0;
     }
     p {
-      font-size: 0.92em;
+      font-size: 0.95em;
       margin-left: 5px;
-      width: 110%;
+      width: 105%;
     }
     hr {
       margin: 0 0 (_size(element-margin) * 0.25) 0;
@@ -2129,13 +2194,13 @@ body.is-mobile {
 /* Footer */
 
 #footer {
-  @include padding(6em, 0);
+  @include padding(5em, 0);
   background-color: darken(_palette(bg), 8);
   text-align: center;
 
   .icons {
-    font-size: 1.25em;
-
+    font-size: 1.6em;
+    padding-right: 1.2em;
     a {
       color: _palette(fg-light);
 
@@ -2201,8 +2266,8 @@ body.landing,
     @include vendor(
       'background-image',
       (
-        'linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))',
-        'url("../image/napa2.jpg")'
+        'linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))',
+        'url("../image/bf.png")'
       )
     );
     background-attachment: fixed;
@@ -2227,8 +2292,8 @@ body.is-mobile {
       @include vendor(
         'background-image',
         (
-          'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-          'url("../img/banner.jpg")'
+          'linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))',
+          'url("../image/bf.png")'
         )
       );
       background-position: center center;
@@ -2248,7 +2313,7 @@ body.is-mobile {
   height: 200px;
 }
 
-#projects {
+#skills {
   #resume {
     &.content {
       display: flex;

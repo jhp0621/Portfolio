@@ -15,6 +15,7 @@ export default function Footer() {
           );
         })}
       </ul>
+      <h6>Inspired by Many ❤</h6>
       <ul className="copyright">
         <li>Ji Hye Park</li>
         <li>

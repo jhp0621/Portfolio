@@ -1,10 +1,13 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import kite from '../assets/img/kite.png';
-import magik from '../assets/img/magik.png';
+import magik from '../assets/img/magik.jpg';
 import pickle from '../assets/img/pickle.png';
-import eye from '../assets/img/eye.png';
-import magik2 from '../assets/img/magik.gif'
+import eye from '../assets/img/eye.jpg';
+import kitegif from '../assets/img/kite.gif';
+import magikgif from '../assets/img/magik.gif';
+import gpgif from '../assets/img/gp.gif';
+import eyegif from '../assets/img/edc.gif';
 
 const IndexPage = () => {
   return (
@@ -17,11 +20,14 @@ const IndexPage = () => {
           </i>
         </header>
         <section id="section1" className="wrapper style5">
-          <div className="inner">
-            <h3>Kite Games</h3>
+          <div id="projects" className="inner">
+            <div className="row">
+              <h3>Kite Games&nbsp;&nbsp;</h3>
+              <img src={kite} height="40em" />
+            </div>
             <h6>Full Stack Developer | April '20</h6>
-            <span className="image left">
-              <img src={kite} alt="" />
+            <span className="image left kite">
+              <img src={kitegif} alt="" className="gif" />
               <br />
               <ul className="icons">
                 <li>
@@ -77,14 +83,15 @@ const IndexPage = () => {
             </p>
             <div id="section2"></div>
             <hr />
-            <h3>M.A.G.I.K </h3>
-            <h6>Sole Developer | April '20</h6>
-            <span className="image right">
-            {/* <span className="image left"> */}
-              <img src={magik2} alt="" className="featured"/>
-              {/* <img src={magik} alt="" /> */}
-              <br />
 
+            <div className="row">
+              <h3>M.A.G.I.K&nbsp;&nbsp;</h3>
+              <img src={magik} height="40em" />
+            </div>
+            <h6>Sole Developer | April '20</h6>
+            <span className="image right magik">
+              <img src={magikgif} alt="" className="gif" />
+              <br />
               <ul className="icons">
                 <li>
                   <a
@@ -133,10 +140,14 @@ const IndexPage = () => {
             </p>
             <div id="section3"></div>
             <hr />
-            <h3>Graced Pickles</h3>
+
+            <div className="row gp">
+              <h3>Graced Pickles&nbsp;&nbsp;</h3>
+              <img src={pickle} alt="" height="40em" />
+            </div>
             <h6>Full Stack Developer | March '20</h6>
-            <span className="image left">
-              <img src={pickle} alt="" />
+            <span className="image left gp">
+              <img src={gpgif} alt="" className="gif" />
               <br />
               <ul className="icons">
                 <li>
@@ -159,6 +170,7 @@ const IndexPage = () => {
                 </li>
               </ul>
             </span>
+
             <p>
               <p>
                 Graced Pickles is a fully functional mock e-commerce website
@@ -185,13 +197,17 @@ const IndexPage = () => {
             </p>
             <div id="section4"></div>
             <hr />
-            <h3>Eye Do Care</h3>
-            <h6>Sole Developer | March '20</h6>
-            <span className="image right">
-              <img src={eye} alt="" />
-              <br />
 
-              <ul className="icons">
+            <div className="row">
+              <h3>Eye Do Care&nbsp;&nbsp;</h3>
+              <img src={eye} alt="" height="40em" />
+            </div>
+
+            <h6>Sole Developer | March '20</h6>
+            <span className="image right edc">
+              <img src={eyegif} alt="" className="gif" />
+              <br />
+              <ul className="icons gif">
                 <li>
                   <a
                     target="_blank"
@@ -211,14 +227,23 @@ const IndexPage = () => {
             </p>
             <p>
               I was inspired to create this after noticing how tired my eyes
-              became since I had begun the coding bootcamp. Unlike most of the
-              reminder extensions I have seen before, I wanted one that would
-              really enforce me to pause and let my eyes rest, instead
-              of automatically clearing up the notification and proceeding to
-              stare at the computer screen. My solution was to display a
-              20-second timer as well as <a href="https://tenor.com/view/lookaway-bridesmaids-melissamccarthy-diarrhea-strong-gif-5295050">this funny gif from Bridesmaids</a> as part of a modal overlay on the current tab the user is on, thereby temporarily blocking the access to the page.
+              became since the coding bootcamp. Unlike most of the reminder
+              extensions I have seen, I wanted one that would really enforce me
+              to pause and let my eyes rest, instead of clearing up the
+              notification and proceeding to stare at the computer screen. My
+              solution was to display a 20-second timer as well as{' '}
+              <a href="https://tenor.com/view/lookaway-bridesmaids-melissamccarthy-diarrhea-strong-gif-5295050">
+                this hilarious gif from Bridesmaids
+              </a>{' '}
+              as part of a modal overlay on the current tab the user is on,
+              thereby temporarily blocking the access to the page.
             </p>
-            <p>I was able to establish a seamless communication between popup, background, and content scripts to display the modal and set repeating alarms and notifications based on user's preference. I actually use this extension daily! And my eyes are thankful for it ʕ•́ᴥ•̀ʔっ♡ </p>
+            <p>
+              I was able to establish a seamless communication between popup,
+              background, and content scripts to display the modal and set
+              repeating alarms based on the user's preference. I actually use
+              this extension daily! And my eyes are thankful for it ʕ•́ᴥ•̀ʔっ♡{' '}
+            </p>
           </div>
         </section>
       </article>

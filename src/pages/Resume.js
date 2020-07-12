@@ -4,14 +4,14 @@ import Layout from '../components/Layout';
 const IndexPage = () => {
   return (
     <Layout fullMenu>
-      <article id="main">
+      <article id="main" className="resume">
         <header>
           <h2>Resume</h2>
-          <a href="https://drive.google.com/uc?export=download&id=1Yxz-7RgbWPIsDFiJX30aP8yInGIC9Y8vo0ZPXyLtfnU">
+          <a href="https://drive.google.com/uc?export=download&id=1SueNRugz8AeJUBqNmQlEO5Z9MWckuWUP">
               Download
             </a>
         </header>
-        <section id="section3" className="wrapper style5">
+        <section id="education" className="wrapper style5">
           <div className="inner">
             <h2>🎓 Education</h2>
 
@@ -28,7 +28,7 @@ const IndexPage = () => {
             <p> B.A. in Psychology (minor in Linguistics)</p>
           </div>
         </section>
-        <section id="section4" className="wrapper style5">
+        <section id="experience" className="wrapper style5">
           <div className="inner">
             <br />
             <br />
