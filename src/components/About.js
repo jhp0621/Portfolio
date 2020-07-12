@@ -16,8 +16,8 @@ export default function About() {
           </h2>
           <p>
             I am a <strong>full stack developer</strong> with a background in
-            psychology and mental health. I love solving challenging problems
-            and working vigorously until I find creative and efficient
+            psychology and mental health. I thrive on the challenge of solving
+            complex problems and enjoy working vigorously until I find creative and efficient
             solutions. I am currently a Teaching Fellow at{' '}
             <a target="_blank" href="https://fullstackacademy.com/">
               Fullstack Academy of Code
@@ -34,7 +34,7 @@ export default function About() {
               Sarah Blondin
             </a>
             , or hanging upside down on aerial silks. I approach life with
-            passion and gratitude because I believe
+            passion and gratitude because I firmly believe
             <code>attitude (!aptitude) === altitude </code>
             <br />
           </p>
