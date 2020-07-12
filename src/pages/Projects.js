@@ -26,7 +26,7 @@ const IndexPage = () => {
               <img src={kite} height="40em" />
             </div>
             <h6>Full Stack Developer | April '20</h6>
-            <span className="image left kite">
+            <span className="image right kite">
               <img src={kitegif} alt="" className="gif" />
               <br />
               <ul className="icons">
@@ -146,7 +146,7 @@ const IndexPage = () => {
               <img src={pickle} alt="" height="40em" />
             </div>
             <h6>Full Stack Developer | March '20</h6>
-            <span className="image left gp">
+            <span className="image right gp">
               <img src={gpgif} alt="" className="gif" />
               <br />
               <ul className="icons">

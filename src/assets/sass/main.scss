@@ -1293,11 +1293,11 @@ button,
     }
   }
   .row {
-    margin-left: 5%;
+    margin-left: 2%;
   }
 
   .summary {
-    margin: 2em 10em 2em 10em;
+    margin: 40px;
   }
 }
 
@@ -1564,9 +1564,8 @@ button,
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin-left: -2%;
+    // margin-left: -2%;
     .inner {
-      width: 65em;
       p {
         font-size: 97%;
       }
@@ -1917,14 +1916,14 @@ button,
     left: 50%;
     letter-spacing: _size(letter-spacing-alt);
     margin-left: -8.5em;
-    opacity: 1;
-    outline: 0;
+    // opacity: 1;
+    // outline: 0;
     padding-left: _size(letter-spacing-alt);
     position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    width: 16em;
-    z-index: 1;
+    // text-align: center;
+    // text-transform: uppercase;
+    // width: 16em;
+    // z-index: 1;
 
     background-image: url('../img/exarrow3.png');
     background-position: center;
@@ -2133,28 +2132,39 @@ body.is-preload,
   }
 
   #projects {
+    p {
+      font-size: 95%;
+    }
     .kite {
-      margin-right: 5%;
+      margin-left: -5%;
       .gif {
-        height: 19em;
+        margin-left: 15%;
         width: 105%;
-        margin-bottom: 5%;
+        height: 15rem;
+      }
+      .icons {
+        margin-left: 15%;
       }
     }
     .magik {
+      margin-left: -5%;
       .gif {
-        margin-top: -90px;
-        height: 33em;
-        width: 17em;
-        border-radius: 34px;
-        // display: block;
-        margin-left: auto;
+        margin-left: 20%;
+        margin-top: -28%;
+        width: 75%;
+        border-radius: 2em;
+      }
+      .icons {
+        margin-left: 20%;
       }
     }
     .gp {
-      margin-right: 3%;
+      margin-left: -5%;
       .gif {
-        margin-bottom: 5%;
+        margin-left: 20%;
+      }
+      .icons {
+        margin-left: 20%;
       }
     }
     .edc {
@@ -2351,7 +2361,7 @@ body.is-mobile {
       );
       background-position: center center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
     }
 
     #footer {
@@ -2409,5 +2419,12 @@ body.is-mobile {
       background-image: url('../img/exarrow.png');
       background-size: 38px;
     }
+  }
+}
+
+.is-mobile {
+  .summary {
+    background-color: pink;
+    margin: 0em;
   }
 }
