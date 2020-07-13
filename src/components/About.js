@@ -22,9 +22,7 @@ export default function About() {
             <a target="_blank" href="https://fullstackacademy.com/">
               Fullstack Academy of Code
             </a>{' '}
-            where I mentor over 30 students in web development skills and manage
-            multiple projects with varying tech stacks. I continue to learn each
-            day by teaching!
+            where I mentor over 30 students in web development skills and manage multiple projects with varying tech stacks. I continue to learn each day by teaching!
            </p><p>
             When I am not coding, I am usually petting every dog I meet on the
             street, singing to my plants (#plantmom), experimenting with
