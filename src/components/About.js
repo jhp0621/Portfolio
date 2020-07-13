@@ -11,7 +11,7 @@ export default function About() {
         <br />
         <header className="major">
           <h2>
-            Hello world! I am Ji. I ♥ coding.
+            Hello world! I am Ji. I love coding.
             <br />
           </h2>
           <p>
