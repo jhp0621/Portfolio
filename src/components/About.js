@@ -34,7 +34,7 @@ export default function About() {
             </a>
             , or hanging upside down on aerial silks. I approach life with
             passion and gratitude because I firmly believe
-            <code>attitude && !aptitude === altitude </code>
+            <code>attitude && !aptitude == altitude </code>
             <br />
           </p>
         </header>
