@@ -47,7 +47,7 @@ export default function Skills() {
           Besides these hard skills, I have been honing a variety of{' '}
           <b>soft skills</b> as well. As a Teaching Fellow, I get to utilize my
           understanding of the human mind and behavior to provide diverse
-          support to my students. I also get to flex my teaching and training
+          support to students. I also get to flex my teaching and training
           skills I have gained from my days as a tutor and as a volunteer
           supervisor. I am thrilled to continue to learn and grow as a software
           engineer and work with other talented individuals who are passionate
