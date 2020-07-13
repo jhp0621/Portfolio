@@ -103,7 +103,11 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://youtu.be/kHfzCNxTKsU" style={{ borderBottom: 'none' }}>
+                  <a
+                    target="_blank"
+                    href="https://youtu.be/kHfzCNxTKsU"
+                    style={{ borderBottom: 'none' }}
+                  >
                     <i className="fab fa-youtube fa-2x" />
                   </a>
                 </li>
@@ -124,12 +128,12 @@ const IndexPage = () => {
                 Insight Timer
               </a>{' '}
               daily. If there is one feature I could add to the app, it would be
-              allowing users to customize affirmations they meditate to.
-              This is why I built M.A.G.I.K! On M.A.G.I.K, users will record
-              their own affirmations, choose the voice preference for gender,
-              pitch, and speed, and finally, meditate to their personal mantra
-              spoken by the AI voice of their choice (or their own voice), on
-              repeat, combined with the sound of soothing music.{' '}
+              allowing users to customize affirmations they meditate to. This is
+              why I built M.A.G.I.K! On M.A.G.I.K, users will record their own
+              affirmations, choose the voice preference for gender, pitch, and
+              speed, and finally, meditate to their personal mantra spoken by
+              the AI voice of their choice (or their own voice), on repeat,
+              combined with the sound of soothing music.{' '}
             </p>
             <p>
               I won the People's Choice Award for this project by receiving the
@@ -170,21 +174,18 @@ const IndexPage = () => {
                 </li>
               </ul>
             </span>
-
             <p>
-              <p>
-                Graced Pickles is a fully functional mock e-commerce website
-                built in a 7-day sprint by a team of three developers, using
-                React, Redux, Node, Express, Sequelize, and Bootstrap.{' '}
-              </p>
-              <p>
-                We built the application from scratch using all the technologies
-                we learned. We started out by setting up our project board for
-                assigining and tracking tasks and designing the database schema.
-                This was my first group project as a developer and it taught me
-                how to effectively communicate with my team, divide the workload
-                fairly, and resolve conflicts when they arise.
-              </p>
+              Graced Pickles is a fully functional mock e-commerce website built
+              in a 7-day sprint by a team of three developers, using React,
+              Redux, Node, Express, Sequelize, and Bootstrap.{' '}
+            </p>
+            <p>
+              We built the application from scratch using all the technologies
+              we learned. We started out by setting up our project board for
+              assigining and tracking tasks and designing the database schema.
+              This was my first group project as a developer and it taught me
+              how to effectively communicate with my team, divide the workload
+              fairly, and resolve conflicts when they arise.
             </p>
             <p>
               My contributions for the project include: <br />• setting up
@@ -227,8 +228,9 @@ const IndexPage = () => {
             </p>
             <p>
               I was inspired to create this after noticing how tired my eyes
-              became since I had begun the coding bootcamp. Unlike most of the reminder
-              extensions I have seen, I wanted one that would <i>force</i> me to let my eyes rest, instead of me clearing up the
+              became since I had begun the coding bootcamp. Unlike most of the
+              reminder extensions I have seen, I wanted one that would{' '}
+              <i>force</i> me to let my eyes rest, instead of me clearing up the
               notification and proceeding to stare at the computer screen. My
               solution was to display a 20-second timer as well as{' '}
               <a href="https://tenor.com/view/lookaway-bridesmaids-melissamccarthy-diarrhea-strong-gif-5295050">
