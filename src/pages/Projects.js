@@ -114,9 +114,9 @@ const IndexPage = () => {
               hackathon using React Native, Expo.io, and Google Cloud
               Speech-to-Text & Text-to-Speech APIs. The name stands for{' '}
               <strong>M</strong>indfulness, <strong>A</strong>ffirmations app
-              for users to practice <strong>G</strong>ratitude, feel{' '}
+              that helps you practice <strong>G</strong>ratitude, feel{' '}
               <strong>I</strong>nspired, and be <strong>K</strong>ind to
-              themselves.{' '}
+              yourself.{' '}
             </p>
             <p>
               I am big fan of meditation and I use{' '}
@@ -124,7 +124,7 @@ const IndexPage = () => {
                 Insight Timer
               </a>{' '}
               daily. If there is one feature I could add to the app, it would be
-              allowing users to customize affirmations they can meditate to.
+              allowing users to customize affirmations they meditate to.
               This is why I built M.A.G.I.K! On M.A.G.I.K, users will record
               their own affirmations, choose the voice preference for gender,
               pitch, and speed, and finally, meditate to their personal mantra
@@ -227,9 +227,8 @@ const IndexPage = () => {
             </p>
             <p>
               I was inspired to create this after noticing how tired my eyes
-              became since the coding bootcamp. Unlike most of the reminder
-              extensions I have seen, I wanted one that would really enforce me
-              to pause and let my eyes rest, instead of clearing up the
+              became since I had begun the coding bootcamp. Unlike most of the reminder
+              extensions I have seen, I wanted one that would <i>force</i> me to let my eyes rest, instead of me clearing up the
               notification and proceeding to stare at the computer screen. My
               solution was to display a 20-second timer as well as{' '}
               <a href="https://tenor.com/view/lookaway-bridesmaids-melissamccarthy-diarrhea-strong-gif-5295050">

@@ -26,7 +26,7 @@ export default function Projects () {
           <h3>M.A.G.I.K</h3>
           <p>
             Mindfulness, Affirmation app for Gratitude, Inspiration and
-            Kindess
+            Kindness
           </p>
         </Link>
       </li>
