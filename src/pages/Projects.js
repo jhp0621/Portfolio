@@ -182,7 +182,7 @@ const IndexPage = () => {
             <p>
               We built the application from scratch using all the technologies
               we learned. We started out by setting up our project board for
-              assigining and tracking tasks and designing the database schema.
+              assigning and tracking tasks and designing the database schema.
               This was my first group project as a developer and it taught me
               how to effectively communicate with my team, divide the workload
               fairly, and resolve conflicts when they arise.
