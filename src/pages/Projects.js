@@ -123,7 +123,7 @@ const IndexPage = () => {
               yourself.{' '}
             </p>
             <p>
-              I am big fan of meditation and I use{' '}
+              I am a big fan of meditation and I use{' '}
               <a target="_blank" href="https://insighttimer.com/">
                 Insight Timer
               </a>{' '}
