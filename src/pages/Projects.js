@@ -62,7 +62,7 @@ const IndexPage = () => {
             <p>
               Kite is a multiplayer realtime games website built within 2.5
               weeks by a team of three developers, using Firebase, React,
-              Express, Node and Bootstrap. As social distancing quickly became
+              Express, Node, and Bootstrap. As social distancing quickly became
               the norm, we were inspired to create a virtual space where friends
               can enjoy each other's company without having to be in the same
               room.
