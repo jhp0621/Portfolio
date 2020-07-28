@@ -37,7 +37,7 @@ export default function Skills() {
               <b>Resume:&nbsp;&nbsp;</b>
               <Link to="/Resume">View</Link>
               <div>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
-              <a href="https://drive.google.com/uc?export=download&id=1WEdkketBJ-4iUr-HpcCAbgUCraw6EhKe">
+              <a href="https://drive.google.com/uc?export=download&id=1LzCpCVKNYY8wKZiC_ln-aGKoAFE_262Z">
                 Download
               </a>
             </div>

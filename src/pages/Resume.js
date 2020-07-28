@@ -7,7 +7,7 @@ const IndexPage = () => {
       <article id="main" className="resume">
         <header>
           <h2>Resume</h2>
-          <a href="https://drive.google.com/uc?export=download&id=1WEdkketBJ-4iUr-HpcCAbgUCraw6EhKe">
+          <a href="https://drive.google.com/uc?export=download&id=1LzCpCVKNYY8wKZiC_ln-aGKoAFE_262Z">
               Download
             </a>
         </header>
