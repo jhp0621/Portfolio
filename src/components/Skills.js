@@ -49,9 +49,9 @@ export default function Skills() {
           experience in the field of psychology to provide diverse
           support to students and serve as a conflict management resource. I also get to flex my teaching and training
           skills I have gained from my days as a tutor and as a volunteer
-          supervisor. I am thrilled to continue to learn and grow as a software
+          supervisor. I am thrilled to continue to grow as a software
           engineer and work with other talented individuals who are passionate
-          about what they do. I am ready for new challenges and cannot wait to
+          about what they do. I am ready for new challenges and can't wait to
           contribute to meaningful projects and applications that empower and
           motivate lives!
         </p>
