@@ -30,7 +30,7 @@ export default function Skills() {
               <div className="box">
                 <h4>Learning</h4>
                 <p>Currently: Angular, GraphQL, Docker</p>
-                <p>On the radar: Swift, Ruby, Typescript, AWS</p>
+                <p>On the radar: Swift, Ruby, AWS</p>
               </div>
             </div>
             <div id="resume" className="content">
