@@ -10,8 +10,7 @@ export default function Projects () {
         <h2 style={{ borderBottom: 'none' }}>Projects</h2>
       </Link>
       <p>
-        These projects were built during the later phase of my coding
-        bootcamp at Fullstack Academy.
+       These projects were built during the later phase of my coding bootcamp at Fullstack Academy.
       </p>
     </header>
     <ul className="features">

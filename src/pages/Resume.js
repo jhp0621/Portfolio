@@ -36,12 +36,10 @@ const IndexPage = () => {
             <h3>Teaching Fellow | 2020</h3>
             <h6>Fullstack Academy of Code, Chicago, IL</h6>
             <p>
-              • Mentor over 30 students in JavaScript fundamentals, engineering
-              concepts, debugging strategies and writing clean code <br />•
-              Oversee student projects as technical mentor and project manager{' '}
-              <br />• Lead weekly whiteboard interview problems including
-              algorithms, data structures and system design <br />• Conduct
-              technical admissions interviews for prospective students
+              • Mentored 30+ students in JavaScript fundamentals, engineering
+              concepts, debugging strategies and writing clean code in over a hundred help tickets and weekly office hours <br />•
+              Managed 10+ student projects with varying tech stack, guided architectural decisions, extensively debugged student code, and provided feedback in daily stand-up meetings
+              <br />• Led weekly workshops covering algorithms, data structures, and system design, and conducted technical interviews for prospective students
             </p>
 
             <h3>Human Resources Associate | 2018 - 2019 </h3>

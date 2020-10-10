@@ -45,14 +45,12 @@ export default function Skills() {
         </div>
         <p className="summary">
           Besides these hard skills, I have been honing a variety of{' '}
-          <b>soft skills</b> as well. As a Teaching Fellow, I get to utilize my
+          <b>soft skills</b> as well. As a Teaching Fellow at FSA, I utilized my
           experience in the field of psychology to provide diverse
-          support to students and serve as a conflict management resource. I also get to flex my teaching and training
-          skills I have gained from my days as a tutor and as a volunteer
-          supervisor. I am thrilled to continue to grow as a software
+          support to my students and serve as a conflict management resource. I am thrilled to continue to learn and grow as a software
           engineer and work with other talented individuals who are passionate
-          about what they do. I am ready for new challenges and can't wait to
-          contribute to meaningful projects and applications that empower and
+          about what they do. I am always open for new challenges and interested in
+          contributing to meaningful projects that empower &
           motivate lives!
         </p>
         <Scroll type="id" element="projects">

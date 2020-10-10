@@ -16,14 +16,26 @@ export default function About() {
           </h2>
           <p>
             I am a <strong>full stack developer</strong> with a background in
-            psychology and mental health. I thrive on the challenge of solving
-            complex problems and enjoy working vigorously until I find creative and efficient
-            solutions. I am currently a Teaching Fellow at{' '}
+            psychology and a passion for continuous learning. I thrive on
+            solving complex problems and I enjoy working vigorously until I find
+            creative and efficient solutions.
+          </p>
+          <p>
+            After completing{' '}
             <a target="_blank" href="https://fullstackacademy.com/">
-              Fullstack Academy of Code
+              Fullstack Academy
+            </a>
+            's software engineering immersive program in Spring 2020, I accepted
+            their internship and mentored over 30 students in web development
+            skills as a Teaching Fellow. Recently, I joined the incredible team
+            at{' '}
+            <a target="_blank" href="https://launchpadlab.com/">
+              LaunchPad Lab
             </a>{' '}
-            where I mentor over 30 students in web development skills and manage multiple projects with varying tech stacks. I continue to learn each day by teaching!
-           </p><p>
+            as a Software Developer and I could not be more excited and
+            grateful!
+          </p>
+          <p>
             When I am not coding, I am usually petting every dog I meet on the
             street, singing to my plants (#plantmom), experimenting with
             kombucha brewing, meditating to{' '}
